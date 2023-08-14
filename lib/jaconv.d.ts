@@ -3,8 +3,6 @@ declare namespace jaconv {
      * 全角ひらがなをヘボン式ローマ字で半角英文字に変換します。
      */
     function toHebon(s: string): string;
-}
-declare namespace jaconv {
     /**
      * 全角ひらがなを全角カタカナに変換します。
      */
@@ -13,10 +11,6 @@ declare namespace jaconv {
      * 全角カタカナを全角ひらがなに変換します。
      */
     function toHiragana(s: string): string;
-}
-declare namespace jaconv {
-}
-declare namespace jaconv {
     /**
      * 全角英数記号を半角に変換します。
      */
@@ -49,3 +43,5 @@ declare namespace jaconv {
      */
     function normalize(s: string): string;
 }
+
+export default jaconv
